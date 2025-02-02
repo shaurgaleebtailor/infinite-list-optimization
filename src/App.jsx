@@ -1,15 +1,15 @@
-import Scroller from "./components/scroller/Scroller";
-import "./App.css";
+import Scroller from "./components/scroller/Scroller.jsx";
+import "./App.scss";
 
-function App() {
+const App = () => {
   return (
-    <>
+    <main>
       <header id="header">
         <h1>Infinte Scroller</h1>
       </header>
       <Scroller />
-    </>
+    </main>
   );
-}
+};
 
 export default App;
