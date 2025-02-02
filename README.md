@@ -9,6 +9,8 @@ This repository demonstrates an optimized way to render an infinite list in a Re
 - Performance comparison with naive implementations  
 
 ## Tech Stack  
+- Html
+- SCSS
 - React.js  
 - Intersection Observer API (for infinite scrolling) 
 
