@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Visualler from '../visualler/Visualler';
+import Visualler from '../visualler/Visualler.jsx';
 const Scroller = () => {
   const [data, setData] = useState([]);
   const [pageNo, setPageNo] = useState(1);

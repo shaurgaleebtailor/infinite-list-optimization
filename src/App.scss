@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+html {
+  font-size: 16px;
+  main {
+    position: relative;
+  }
+}
+
+#header {
+  margin-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  h1 {
+    color: #213555;
+    background-color: antiquewhite;
+    margin-bottom: 0.25rem;
+    text-align: center;
+  }
+}
