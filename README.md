@@ -1,3 +1,6 @@
+# Demo
+- goto --> https://shaurgaleebtailor.github.io/infinite-list-optimization/
+
 # Optimized Infinite List in React  
 
 This repository demonstrates an optimized way to render an infinite list in a React application. It prevents performance issues by using the Intersection Observer API for efficient lazy loading and seamless infinite scrolling. 🚀
