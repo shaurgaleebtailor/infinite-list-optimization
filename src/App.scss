@@ -17,9 +17,25 @@ html {
   top: 0;
   z-index: 2;
   h1 {
-    color: #213555;
     background-color: antiquewhite;
+    font-weight: 500;
     margin-bottom: 0.25rem;
     text-align: center;
+    animation: headerAnimation 2s ease-in-out 0s infinite;
+  }
+
+  @keyframes headerAnimation {
+    0% {
+      color: black;
+    }
+    50% {
+      color: #011c37;
+    }
+    75% {
+      color: #1a3046;
+    }
+    100% {
+      color: #28313a;
+    }
   }
 }

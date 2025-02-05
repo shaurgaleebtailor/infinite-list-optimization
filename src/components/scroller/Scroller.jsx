@@ -6,7 +6,7 @@ const Scroller = () => {
 
   useEffect(() => {
     // Fetch data for the current page when pageNo changes
-    fetch(`https://picsum.photos/v2/list?page=${pageNo}&limit=3`)
+    fetch(`https://picsum.photos/v2/list?page=${pageNo}&limit=4`)
       .then((res) => res.json())
       .then((data) => setData((prevData) => [...prevData, ...data]));
   }, [pageNo]);

@@ -11,7 +11,7 @@ const Visualler = ({ data, setPager }) => {
           setPager((prevPageNo) => prevPageNo + 1); // Increment page number for data fetch
         }
       },
-      { threshold: 0.75 } // Trigger when 75% of the image is in view
+      { threshold: 0.25 } // Trigger when 25% of the image is in view
     );
 
     // Get all images and observe the last one

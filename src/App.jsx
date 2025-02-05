@@ -5,7 +5,7 @@ const App = () => {
   return (
     <main>
       <header id="header">
-        <h1>Infinte Scroller</h1>
+        <h1>Infinite <span>&infin;</span> Scroller</h1>
       </header>
       <Scroller />
     </main>
